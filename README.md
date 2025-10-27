@@ -7,16 +7,6 @@ This repository contains the scripts, documentation, and key results for a proje
 A total of 40 human breast cancer samples (20 drug-resistant and 20 susceptible) were analyzed to uncover gene expression signatures and enriched pathways associated with drug response and resistance.
 Repository Structure
 
-text
-.
-├── README.md                 # Project overview and documentation
-├── scrna_40sample_pipeline_v3.py   # Single-cell analysis pipeline script
-├── results/
-│   ├── gsea_report_for_0_1761058120574.html   # GSEA report for susceptible samples
-│   ├── gsea_report_for_1_1761058120574.html   # GSEA report for resistant samples
-│   └── ...                                   # Additional CSVs, processed results
-├── figures/
-│   └── ...                                   # Plots, heatmaps, pathway enrichment figures
 
 Motivation
 
