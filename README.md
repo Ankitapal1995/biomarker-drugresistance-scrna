@@ -1,16 +1,16 @@
 # biomarker-drugresistance-scrna
 Single-Cell RNA-Seq Analysis of Drug Resistance Biomarkers in Breast Cancer
-Single-Cell RNA-Seq Analysis of Drug Resistance Biomarkers in Breast Cancer
+
 Project Overview
 
 This repository contains the scripts, documentation, and key results for a project focused on the identification of cell type-specific biomarkers for drug resistance in breast cancer using single-cell RNA-sequencing (scRNA-seq) data.
-A total of 40 human breast cancer samples (20 drug-resistant and 20 susceptible) were analyzed to uncover gene expression signatures and enriched pathways associated with drug response and resistance.
+A total of 40 human breast cancer samples (20 Erlotinib-resistant and 20 susceptible) were analyzed to uncover gene expression signatures and enriched pathways associated with drug response and resistance.
 Repository Structure
 
 
 Motivation
 
-Drug resistance in breast cancer is a major challenge in precision medicine. This project aims to dissect the cellular and molecular features distinguishing drug-resistant from drug-sensitive tumor cells by leveraging high-resolution single-cell transcriptomics and robust gene set enrichment analysis.
+Erlotinib resistance in breast cancer is a major challenge in precision medicine. This project aims to dissect the cellular and molecular features distinguishing drug-resistant from drug-sensitive tumor cells by leveraging high-resolution single-cell transcriptomics and robust gene set enrichment analysis.
 Methods
 
     scRNA-seq Pipeline:
@@ -42,8 +42,10 @@ How to Run the Analysis
 
         Python >= 3.8
 
-        Required packages listed in the script (Scanpy, CellTypist, Pandas, Numpy, etc.)
+        Required packages listed in the script (Scanpy, CellTypist, Pandas, Numpy)
 
+        GSEA for enrichment analysis
+        
     Run the Pipeline:
 
     bash
